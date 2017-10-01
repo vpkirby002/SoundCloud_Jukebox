@@ -1,6 +1,7 @@
-
-
-
+/*
+body{
+	margin: 0 auto;
+}*/
 
 
 
@@ -12,23 +13,17 @@
 	font-family: 'Sedgwick Ave Display', cursive;
 }
 
-#jukebox .info{
+/*#jukebox .info{
 	height: 50px;
 	border: 2px solid #333;
 	border-radius: 15px;
 
-}
+}*/
 
-#jukebox .controls span {
+#wrapper {
 	cursor: pointer;
 	transition: color 0.5s;
 
-}
-
-
-
-#jukebox .controls span:hover{
-	color: #3F3C4C;
 }
 
 
@@ -48,11 +43,71 @@
 	/*position: relative;*/
 	/*top:0;*/
 	/*bottom: 0*/
-	height: 100vh;
+	height: 235vh;
 	z-index: -10;
+	padding: 0px;
+	/*margin-bottom:-50px;*/
 
 }
 
+
+
+h2 {
+	
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 75px;
+	margin: 0 auto;
+	color: #3F3C4C;
+	text-align: center;
+	
+}
+
+
+#myForm {
+	
+	text-align: center;
+	/*padding-top: 0px;*/
+	font-size: 200px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+#input {
+	width:500px;
+	height: 50px; 
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+#input .submitBtn  {
+	height: 1000px;
+	width: 40px;
+
+
+}
+
+
+
+
+#description {
+	font-family: Arial;
+	font-size: 50px;
+	display: inline-block;
+	color: white;
+	/*list-style: */
+
+}
+
+
+
+/*#submitBtn {
+	position: inline-block;
+}
+*/
 
 
 /*img {
@@ -63,26 +118,11 @@
 	background-image: url("https://static.pexels.com/photos/96857/pexels-photo-96857.jpeg");
 }*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img {
+	width: 250px;
+	height:250px;
+	text-align: center;
+}
 
 
 
